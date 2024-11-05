@@ -1,0 +1,345 @@
+/* #region base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: #111111;
+}
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+/* #endregion */
+/* #region common */
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-title-accent {
+  color: #fd9222;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+/* logo */
+.logo {
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+/* btn */
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  background: transparent;
+}
+.btn-accent {
+  color: #fff;
+  background-color: #fd9222;
+}
+.btn-accent:hover,
+.btn-accent:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+}
+.btn-primary {
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #fd9222;
+}
+.btn-secondary {
+  font-size: 18px;
+  color: #111;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background: #fd9222;
+  color: #fff;
+}
+.scroll-down {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.scroll-down:hover,
+.scroll-down:focus {
+  color: #fd9222;
+}
+/* #endregion */
+/* #region header */
+.header {
+}
+.nav {
+}
+.logo {
+}
+.logo-icon {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #fd9222;
+}
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+/* #endregion */
+/* #region hero */
+.hero {
+  background: rgba(17, 17, 17, 0.4);
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.btn {
+}
+.btn-accent {
+}
+.btn-primary {
+}
+.scroll-down-icon {
+}
+
+/* #endregion */
+/* #region benefits */
+.benefits {
+  background-color: #1e1823;
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion */
+/* #region ingridient  */
+.ingridient {
+}
+.ingridient-title {
+}
+.ingridient-list {
+}
+.ingridient-item {
+}
+.ingridient-img {
+}
+.ingridient-caption {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+/* #endregion */
+/* #region made */
+.made {
+}
+.made-title {
+}
+.made-ill {
+}
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.made-list {
+}
+.made-item {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+/* #endregion */
+/* #region products */
+.products {
+}
+.products-title {
+}
+.products-list {
+}
+.products-item {
+}
+.products-img {
+}
+.products-caption {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.products-type {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.products-btn {
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+/* #endregion */
+/* #region bestsellers */
+.bestsellers {
+}
+.bestsellers-title {
+}
+.bestsellers-list {
+}
+.bestsellers-item {
+}
+.bestsellers-ill {
+}
+.bestsellers-caption {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+/* #endregion */
+/* #region reviews */
+.reviews {
+}
+.reviews-title {
+}
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-avatar {
+}
+.reviews-author {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+}
+.reviews-desc {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+/* #endregion */
+/* #region footer */
+.footer {
+  background: #1e1823;
+}
+.footer-slogan {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.footer-slogan-accent {
+  color: #fd9222;
+}
+.footer-caption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fff;
+}
+.footer-socials {
+}
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.footer-contacts-item {
+}
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: #fd9222;
+}
+.footer-nav {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #fd9222;
+}
+/* #endregion */
